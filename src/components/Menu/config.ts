@@ -26,11 +26,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         label: t('Stake'),
         href: 'https://anpanswap.finance/pools',
       },
-      {
-        label: t('Prediction'),
-        href: 'https://anpanswap.finance/prediction',
-      },
-
 ]
 
 export default config

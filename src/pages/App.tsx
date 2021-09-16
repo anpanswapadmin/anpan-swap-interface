@@ -12,8 +12,8 @@ import PoolFinder from './PoolFinder'
 import RemoveLiquidity from './RemoveLiquidity'
 import Swap from './Swap'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
-
 import Menu from '../components/Menu'
+import Header from './Header'
 
 
 const AppWrapper = styled.div`
@@ -27,7 +27,10 @@ const BodyWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 36px 16px;
+  padding-top: 8px;
+  padding-bottom: 36px;
+  padding-left: 36px;
+  padding-right: 36px;
   align-items: center;
   flex: 1;
   overflow-y: auto;
@@ -41,8 +44,7 @@ const BodyWrapper = styled.div`
   }
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
-      url('/images/left-anpans.svg'), url('/images/right-anpans.svg');
+    
     background-repeat: no-repeat;
     background-position: center 420px, 10% 230px, 90% 230px;
     background-size: contain, 266px, 266px;
@@ -65,6 +67,7 @@ export default function App() {
             
               <Menu>
                 <BodyWrapper>
+                 <Header/>
                   <Popups />
                   <Web3ReactManager>
                     <Switch>
