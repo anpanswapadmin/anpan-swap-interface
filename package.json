@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@anpanswap-libs/sdk": "1.0.5",
-    "@anpanswap/uikit": "^0.1.48",
+    "@anpanswap/uikit": "^0.1.57",
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
