@@ -303,7 +303,7 @@ const Swap = () => {
           />
           <PageHeader
             title={t('Exchange')}
-            description={t('Swap tokens doing in an instant')}
+            description={t('Swapping tokens is done in an instant')}
           />
           <CardBody>
             <AutoColumn gap="md">

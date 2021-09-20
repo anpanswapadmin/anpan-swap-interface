@@ -189,10 +189,10 @@
     {
       "name": "AnpanSwap Token",
       "symbol": "ANPAN",
-      "address": "0xaca159cec26fa84e33296538d1619166addc4b97",
+      "address": "0xfeca27a665dae2cd212a251a1fa7aa8037495b20",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://exchange.anpanswap.finance/images/coins/0xaca159cec26fa84e33296538d1619166addc4b97.png"
+      "logoURI": "https://exchange.anpanswap.finance/images/coins/0xfeca27a665dae2cd212a251a1fa7aa8037495b20.png"
     },
     {
       "name": "PancakeSwap Token",

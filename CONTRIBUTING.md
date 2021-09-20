@@ -1,7 +1,7 @@
 # Contributing to the Anpan ecosystem 
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.anpanswap.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.anpanswap.finance/#/code/contributing/contributing) first.
 
 ## Setup
 

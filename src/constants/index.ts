@@ -9,7 +9,7 @@ type ChainTokenList = {
 
 export const ANPAN = new Token(
   ChainId.MAINNET,
-  '0xaca159cec26fa84e33296538d1619166addc4b97',
+  '0xfeca27a665dae2cd212a251a1fa7aa8037495b20',
   18,
   'ANPAN',
   'AnpanSwap Token'
