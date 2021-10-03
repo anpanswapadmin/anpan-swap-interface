@@ -27,7 +27,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
         <ButtonMenuItem
           id="pool-nav-link"
           as="a"
-          href="https://anpanswap.info"
+          href="https://info.anpanswap.finance"
           target="_blank"
         >
           {t('Analytics')}
